@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Sum_Of_Odd" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports/>
+    <implements/>
+    <fields/>
+    <constructors/>
+    <methods>
+        <method access="public" static="true" type="void" type-java="void" name="main" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params>
+                <param type="int" type-java="int" name="max"/>
+            </params>
+            <throws/>
+            <body>
+                <variable type="int" type-java="int" name="a" enable="true"/>
+                <variable type="int" type-java="int" name="b" value="0" value-java="0" enable="true"/>
+                <assign dest="a" dest-java="a" src="1" src-java="1" enable="true"/>
+                <while condition="a&lt;=max" condition-java="a &lt;= max" enable="true">
+                    <call expression="System.out.println(a)" expression-java="System.out.println(a)" enable="true"/>
+                    <assign dest="b" dest-java="b" src="b+a" src-java="b + a" enable="true"/>
+                    <assign dest="a" dest-java="a" src="a+2" src-java="a + 2" enable="true"/>
+                </while>
+                <call expression="System.out.println(&quot;The sum of these numbers is &quot;+b)" expression-java="System.out.println(&quot;The sum of these numbers is &quot; + b)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
