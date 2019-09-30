@@ -12,12 +12,6 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
-/**
- * Write a description of JavaFX class CatView here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class CatView extends Application
 {
     private Image[] images;
